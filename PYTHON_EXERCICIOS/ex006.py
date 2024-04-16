@@ -1,0 +1,5 @@
+numero_escolhido = float(input("Digite um valor: "))
+dobro = float(numero_escolhido*2)
+triplo = float(numero_escolhido*3)
+raiz_quadrada = float(numero_escolhido ** (1/2))
+print ('O numero escolhido foi: {} \n Seu dobro é: {} \n Seu triplo é: {} \n Sua raiz quadrada é: {:.2f}'.format(numero_escolhido,dobro,triplo,raiz_quadrada))
