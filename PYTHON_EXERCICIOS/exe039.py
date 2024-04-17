@@ -3,8 +3,6 @@
 
 from datetime import datetime
 
-ano_atual = datetime.now().year
-
 
 nome = str(input('Qual o seu nome? '))
 ano_nascimento = int(input('Em qual ano você nasceu: '))
@@ -12,7 +10,7 @@ ano_atual = datetime.now().year
 idade = (ano_atual - ano_nascimento)
 print(idade)
 
-if(ano_nascimento < 1950 or ano_nascimento > ano_atual or " "):
+if(ano_nascimento < 1950 or ano_nascimento > ano_atual):
     print('Data invalida, digite novamente')
 else:
     if(idade < 17):
